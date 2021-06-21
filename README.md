@@ -76,7 +76,7 @@ A lot of configurations are available in runtime too, so make sure you try all o
 
 ### Initialise the assist window and the simulation instance
 
-[Main.java](src/main/java/group17/Main.java)
+[Main.java](C:\JAVA\SolarSystem3D\src\main\java\phase3\Main.java)
 
 ```java
 import group17.phase1.group17.phase1.Titan.Interfaces.SimulationInterface;
@@ -95,7 +95,7 @@ public class Main {
 
 ### Set up a simulation
 
-[Simulation.java](src/main/java/group17/Simulation/Simulation.java)
+[Simulation.java](C:\JAVA\SolarSystem3D\src\main\java\phase3\Simulation\Simulation.java)
 
 ```java
 @Override 
@@ -139,10 +139,10 @@ public class Config{
 
 If this configuration is selected during the simulation process, the generated files will be collected in the
 resources/ErrorData folder, organised by solver and step size used If selected during tests (by enabling
-[SolversAccuracyTest.java]) these files will be collected in the test/java/resources/ErrorData folder,as by standard
+[GeneralSystemTest.java]) these files will be collected in the test/java/resources/ErrorData folder,as by standard
 organization.
 
-[SolversAccuracyTest.java]: src/test/java/group17/SolversAccuracyTest.java
+[GeneralSystemTest.java]: C:\JAVA\SolarSystem3D\src\test\java\GeneralSystemTest.java
 
 NOTE : the ErrorData folder MUST be present in both cases, if this options is selected NOTE : to allow the report
 generation it is **_required_**  to let the simulation Clock to get to the **_first of the month at the exact time "00:
