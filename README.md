@@ -59,14 +59,19 @@ test {
 [Config.java](C:\JAVA\SolarSystem3D\src\main\java\API\Config.java)
 
 #### Check out all the available simulations it is possible to select!
-![another reference]
+
+Lorenz System simulation ![another reference](C:\JAVA\SolarSystem3D\src\main\resources\PendulumGif.gif)
+
+Double Pendulum simulation ![they're a lot!](C:\JAVA\SolarSystem3D\src\main\resources\LorenzGif.gif)
+
+
 A lot of configurations are available in runtime too, so make sure you try all of them 
-![they're a lot!]
 
 
-[they're a lot!]: C:\JAVA\SolarSystem3D\src\main\resources\LorenzGif.gif
 
-[another reference]: C:\JAVA\SolarSystem3D\src\main\resources\PendulumGif.gif
+
+
+
 
 ### Initialise the assist window and the simulation instance
 
