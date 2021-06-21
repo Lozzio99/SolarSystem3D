@@ -143,13 +143,16 @@ generation it is **_required_**  to let the simulation Clock to get to the **_fi
 00:00"_**. Check out the implementation of [Clock.java](C:\JAVA\SolarSystem3D\src\main\java\API\System\Clock.java) or stick to
 step size exactly dividing a minute by a natural, integer number.
 
-# Early Release
-
-We left to the user some leaks about future features we are intended to implement as deprecated, to discourage the usage
-of them since they haven't been fully tested and integrated.
 
 ## Contributing
 
-Group 17, who contributed at this project :
-
-Dan Parii, Lorenzo Pompigna, Nikola Prianikov, Axel Rozental, Konstantin Sandfort, Abhinandan Vasudevan (phase 1 only)
+Group 17 ,
+Data Science and Artificial Intelligence,
+Maastricht University 2020/2021 .
+People who contributed at this project :
+Dan Parii, 
+Lorenzo Pompigna,
+Nikola Prianikov,
+Axel Rozental,
+Konstantin Sandfort, 
+Abhinandan Vasudevan (phase 1 only)
