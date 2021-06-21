@@ -62,13 +62,13 @@ test {
 
 Lorenz System simulation ![another reference]
 
-[another reference]: C:\JAVA\SolarSystem3D\src\main\resources\PendulumGif.gif
+[another reference]: C:\JAVA\SolarSystem3D\github\PendulumGif.gif
 
 Simulating fluid dynamics
 
 Double Pendulum simulation ![they're a lot!]
 
-[they're a lot!]: C:\JAVA\SolarSystem3D\src\main\resources\LorenzGif.gif
+[they're a lot!]: C:\JAVA\SolarSystem3D\github\LorenzGif.gif
 
 simulating chaotic motions
 
