@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'jacoco'
+}
+
+group 'org.Lozzio'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.jetbrains:annotations:20.1.0'
+    implementation 'org.junit.jupiter:junit-jupiter:5.7.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+    onOutput { descriptor, event ->
+        if (event.destination == TestOutputEvent.Destination.StdErr) {
+
+            if (event.message instanceof String)
+                logger.error "Test: " + descriptor + ", error: " + event.message as String
+            else
+                logger.error "Test: " + descriptor + ", error: " + event.message as Error
+
+        } else {
+            logger.lifecycle  "Test: " + descriptor + ", output: " + event.message as String
+        }
+    }
+    finalizedBy jacocoTestReport
+}
