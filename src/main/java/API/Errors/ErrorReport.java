@@ -70,7 +70,7 @@ public class ErrorReport implements Runnable {
     public static void parseOriginal() {
         FileReader fr;
         try {
-            File csvFile = new File(Objects.requireNonNull(ErrorReport.class.getClassLoader().getResource("ErrorData/ORIGINAL_MONTHS.csv")).getFile());
+            File csvFile = new File("src/main/resources/ErrorData/ORIGINAL_MONTHS.csv");
             fr = new FileReader(csvFile);
             Scanner scan = new Scanner(fr);
             int monthIndex = 0;

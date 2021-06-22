@@ -43,7 +43,9 @@ test {
 
 ```
 
-### Compiler - Java language level 16
+### Compiler - Java language level 16 
+#### Enable preview 16 (Records, Patterns, local enums, and interfaces)
+
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
