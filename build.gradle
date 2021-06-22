@@ -3,9 +3,10 @@ plugins {
     id 'application'
     id 'jacoco'
 }
+
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(16)
+        languageVersion.set(JavaLanguageVersion.of(16))
     }
 }
 
@@ -30,15 +31,16 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
 
-allprojects {
-    tasks.withType(JavaCompile) {
-        sourceCompatibility = '16'
-        targetCompatibility = '16'
-    }
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.compilerArgs.add('--enable-preview')
+    //it.options.compilerArgs.addAll(['--source','16'])
 }
+
 
 test {
     useJUnitPlatform()
+    jvmArgs(['--enable-preview'])
     onOutput { descriptor, event ->
         if (event.destination == TestOutputEvent.Destination.StdErr) {
 
@@ -54,11 +56,12 @@ test {
     finalizedBy jacocoTestReport
 }
 
-ext{
+ext {
     javaMainClass = "src/main/java/phase3/Main.java"
 }
 
 
 application {
     getMainClass().set javaMainClass
+    applicationDefaultJvmArgs = ['--enable-preview','--source','16']
 }
