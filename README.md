@@ -62,14 +62,15 @@ test {
 
 #### Check out all the available simulations it is possible to select!
 
-#####First order ODE
+#####First order ODE Systems
 
 Lorenz System simulation ![lorenz]
 
 [lorenz]: src/main/resources/Gifs/LorenzGif.gif
 
 simulating fluid dynamics
-#####Second order ODE
+
+#####Second order ODE Systems
 
 Double Pendulum simulation ![pendulum]
 
@@ -85,7 +86,7 @@ simulating chaotic motions
 
 ### Initialise the assist window and the simulation instance
 
-[Main.java](src/main/java/phase/Main.java)
+[Main.java](src/main/java/phase3/Main.java)
 
 ```java
 import group17.phase1.group17.phase1.Titan.Interfaces.SimulationInterface;
