@@ -50,6 +50,7 @@ public class ModuleScene extends Scene {
 
     @Override
     public void init() {
+        //super.init();
         image = ModuleShape.load();
         Vector2DConverter.translate(0, 200);
         X = new Line2D.Double(Vector2DConverter.convertVector(new Vector3D(1000, 0, 0)), Vector2DConverter.convertVector(new Vector3D(-1000, 0, 0)));

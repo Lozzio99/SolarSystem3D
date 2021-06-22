@@ -31,8 +31,7 @@ public class LorenzScene extends Scene {
 
     @Override
     public void init() {
-        this.setEnabled(true);
-        this.setFocusable(true);
+        //super.init();
         for (int i = 0; i < 65; i++)
             Vector3DConverter.zoomIn();
         TRAJECTORY_LENGTH = 90;

@@ -78,7 +78,9 @@ Double Pendulum simulation ![pendulum]
 
 simulating chaotic motions
 
+Solar System simulation ![solarSystem]
 
+[solarSystem]: src/main/resources/Gifs/SolarSystemGif.gif
 
 
 

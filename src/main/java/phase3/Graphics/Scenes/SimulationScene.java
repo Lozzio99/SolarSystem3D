@@ -78,6 +78,7 @@ public class SimulationScene extends Scene {
     }
     @Override
     public void init() {
+        //super.init();
         this.planetsPositions = new Vector3dInterface[simulation.getSystem().getState().get().length / 2];
         this.state = new SystemState<>(new Vector3D[this.planetsPositions.length]);
         this.radius = new double[this.planetsPositions.length];

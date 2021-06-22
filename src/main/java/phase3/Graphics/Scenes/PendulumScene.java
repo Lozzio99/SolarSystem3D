@@ -95,6 +95,7 @@ public class PendulumScene extends Scene {
 
     @Override
     public void init() {
+        //super.init();
         for (int i = 0; i < 25; i++) Vector2DConverter.zoomOut();
         mouseSensitivity = 2;
         TRAJECTORY_LENGTH = 600;
