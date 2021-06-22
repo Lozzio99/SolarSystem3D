@@ -171,6 +171,4 @@ People who contributed at this project :
 Dan Parii, 
 Lorenzo Pompigna,
 Nikola Prianikov,
-Axel Rozental,
-Konstantin Sandfort, 
-Abhinandan Vasudevan (phase 1 only)
+Konstantin Sandfort
