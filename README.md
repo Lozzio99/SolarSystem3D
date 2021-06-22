@@ -62,7 +62,7 @@ test {
 
 #### Check out all the available simulations it is possible to select!
 
-#####First order ODE Systems
+First order ODE Systems :
 
 Lorenz System simulation ![lorenz]
 
@@ -70,7 +70,7 @@ Lorenz System simulation ![lorenz]
 
 simulating fluid dynamics
 
-#####Second order ODE Systems
+Second order ODE Systems :
 
 Double Pendulum simulation ![pendulum]
 
