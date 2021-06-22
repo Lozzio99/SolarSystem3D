@@ -58,7 +58,7 @@ test {
 
 # Usage
 
-[Config.java](C:\JAVA\SolarSystem3D\src\main\java\API\Config.java)
+[Config.java](src\main\java\API\Config.java)
 
 #### Check out all the available simulations it is possible to select!
 
@@ -66,18 +66,16 @@ test {
 
 Lorenz System simulation ![lorenz]
 
-[lorenz]:C:\JAVA\SolarSystem3D\src\main\resources\Gifs\LorenzGif.gif
+[lorenz]: src\main\resources\Gifs\LorenzGif.gif
 
 simulating fluid dynamics
 #####Second order ODE
 
 Double Pendulum simulation ![pendulum]
 
-[pendulum]: C:\JAVA\SolarSystem3D\src\main\resources\Gifs\PendulumGif.gif  
+[pendulum]: src\main\resources\Gifs\PendulumGif.gif  
 
 simulating chaotic motions
-
-A lot of configurations are available in runtime too, so make sure you try all of them 
 
 
 
@@ -87,7 +85,7 @@ A lot of configurations are available in runtime too, so make sure you try all o
 
 ### Initialise the assist window and the simulation instance
 
-[Main.java](C:\JAVA\SolarSystem3D\src\main\java\phase3\Main.java)
+[Main.java](src\main\java\phase3\Main.java)
 
 ```java
 import group17.phase1.group17.phase1.Titan.Interfaces.SimulationInterface;
@@ -106,7 +104,7 @@ public class Main {
 
 ### Set up a simulation
 
-[Simulation.java](C:\JAVA\SolarSystem3D\src\main\java\phase3\Simulation\Simulation.java)
+[Simulation.java](src\main\java\phase3\Simulation\Simulation.java)
 
 ```java
 @Override 
@@ -153,11 +151,11 @@ resources/ErrorData folder, organised by solver and step size used If selected d
 [GeneralSystemTest.java]) these files will be collected in the test/java/resources/ErrorData folder,as by standard
 organization.
 
-[GeneralSystemTest.java]: C:\JAVA\SolarSystem3D\src\test\java\GeneralSystemTest.java
+[GeneralSystemTest.java]: src\test\java\GeneralSystemTest.java
 
 NOTE : the ErrorData folder MUST be present in both cases, if this options is selected NOTE : to allow the report
 generation it is **_required_**  to let the simulation Clock to get to the **_first of the month at the exact time "00:
-00:00"_**. Check out the implementation of [Clock.java](C:\JAVA\SolarSystem3D\src\main\java\API\System\Clock.java) or stick to
+00:00"_**. Check out the implementation of [Clock.java](src\main\java\API\System\Clock.java) or stick to
 step size exactly dividing a minute by a natural, integer number.
 
 
