@@ -62,11 +62,20 @@ test {
 
 #### Check out all the available simulations it is possible to select!
 
-Lorenz System simulation
-![alt text](C:\JAVA\SolarSystem3D\src\main\resources\Gifs\LorenzGif.gif)  Simulating fluid dynamics
+#####First order ODE
 
-Double Pendulum simulation ![alt text](C:\JAVA\SolarSystem3D\src\main\resources\Gifs\PendulumGif.gif)  simulating chaotic motions
+Lorenz System simulation ![lorenz]
 
+[lorenz]:C:\JAVA\SolarSystem3D\src\main\resources\Gifs\LorenzGif.gif
+
+simulating fluid dynamics
+#####Second order ODE
+
+Double Pendulum simulation ![pendulum]
+
+[pendulum]: C:\JAVA\SolarSystem3D\src\main\resources\Gifs\PendulumGif.gif  
+
+simulating chaotic motions
 
 A lot of configurations are available in runtime too, so make sure you try all of them 
 
