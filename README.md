@@ -61,18 +61,24 @@ test {
 [Config.java](C:\JAVA\SolarSystem3D\src\main\java\API\Config.java)
 
 #### Check out all the available simulations it is possible to select!
-![another reference]
+
+Lorenz System simulation
+![alt text](C:\JAVA\SolarSystem3D\src\main\resources\Gifs\LorenzGif.gif)  Simulating fluid dynamics
+
+Double Pendulum simulation ![alt text](C:\JAVA\SolarSystem3D\src\main\resources\Gifs\PendulumGif.gif)  simulating chaotic motions
+
+
 A lot of configurations are available in runtime too, so make sure you try all of them 
-![they're a lot!]
 
 
-[they're a lot!]: C:\JAVA\SolarSystem3D\src\main\resources\LorenzGif.gif
 
-[another reference]: C:\JAVA\SolarSystem3D\src\main\resources\PendulumGif.gif
+
+
+
 
 ### Initialise the assist window and the simulation instance
 
-[Main.java](src/main/java/group17/Main.java)
+[Main.java](C:\JAVA\SolarSystem3D\src\main\java\phase3\Main.java)
 
 ```java
 import group17.phase1.group17.phase1.Titan.Interfaces.SimulationInterface;
@@ -91,7 +97,7 @@ public class Main {
 
 ### Set up a simulation
 
-[Simulation.java](src/main/java/group17/Simulation/Simulation.java)
+[Simulation.java](C:\JAVA\SolarSystem3D\src\main\java\phase3\Simulation\Simulation.java)
 
 ```java
 @Override 
@@ -135,23 +141,26 @@ public class Config{
 
 If this configuration is selected during the simulation process, the generated files will be collected in the
 resources/ErrorData folder, organised by solver and step size used If selected during tests (by enabling
-[SolversAccuracyTest.java]) these files will be collected in the test/java/resources/ErrorData folder,as by standard
+[GeneralSystemTest.java]) these files will be collected in the test/java/resources/ErrorData folder,as by standard
 organization.
 
-[SolversAccuracyTest.java]: src/test/java/group17/SolversAccuracyTest.java
+[GeneralSystemTest.java]: C:\JAVA\SolarSystem3D\src\test\java\GeneralSystemTest.java
 
 NOTE : the ErrorData folder MUST be present in both cases, if this options is selected NOTE : to allow the report
 generation it is **_required_**  to let the simulation Clock to get to the **_first of the month at the exact time "00:
 00:00"_**. Check out the implementation of [Clock.java](C:\JAVA\SolarSystem3D\src\main\java\API\System\Clock.java) or stick to
 step size exactly dividing a minute by a natural, integer number.
 
-# Early Release
-
-We left to the user some leaks about future features we are intended to implement as deprecated, to discourage the usage
-of them since they haven't been fully tested and integrated.
 
 ## Contributing
 
-Group 17, who contributed at this project :
-
-Dan Parii, Lorenzo Pompigna, Nikola Prianikov, Axel Rozental, Konstantin Sandfort, Abhinandan Vasudevan (phase 1 only)
+Group 17 ,
+Data Science and Artificial Intelligence,
+Maastricht University 2020/2021 .
+People who contributed at this project :
+Dan Parii, 
+Lorenzo Pompigna,
+Nikola Prianikov,
+Axel Rozental,
+Konstantin Sandfort, 
+Abhinandan Vasudevan (phase 1 only)
